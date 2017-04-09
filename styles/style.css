@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Avenir;
+    src: url('/fonts/AvenirNextCyr-Regular.otf');
+}
+
+@font-face {
+    font-family: AvenirMedium;
+    src: url('../fonts/AvenirNextCyr-Medium.otf');
+}
+
+@font-face {
+    font-family: AvenirBold;
+    src: url('../fonts/AvenirNextCyr-Bold.otf');
+}
+
+body {
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+
+/*
+    HEADER
+ */
+
+.header {
+
+}
+
+
+
+/*
+    CONTENT
+ */
+
+
+
+
+
+/*
+    FOOTER
+ */
+
+.footer {
+
+}
+
+.footer-disclaimer {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #3f3f3e;
+    color: #a5a5a5;
+    font-family: AvenirMedium, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
