@@ -5,11 +5,10 @@
     <title>Bizadvisor</title>
 
     <link rel="stylesheet" href="styles/reset.css"/>
-    <!--<link rel="stylesheet" href="styles/normalize.css"/>-->
     <link rel="stylesheet" href="styles/style.css"/>
 
 </head>
-<body>
+<body class="main-page">
 <!-- header -->
 <div class="header">
     <div class="container">
@@ -87,87 +86,88 @@
         </div>
 
         <div class="section-content">
-            <div class="service-list">
-                <ul class="clearfix">
+            <div class="service-list-wrapper">
+                <div class="service-list">
+                    <ul class="clearfix">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        Размещение рекламы
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
 
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        Выставочные услуги, стенды
+                                    </div>
                                 </div>
-                                <div class="service-item-name">
-                                    Размещение рекламы
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        Логистика. Таможенные услуги
+                                    </div>
                                 </div>
-                                <div class="service-item-name">
-                                    Выставочные услуги, стенды
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        Юридические услуги
+                                    </div>
                                 </div>
-                                <div class="service-item-name">
-                                    Логистика. Таможенные услуги
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        Развитие бизнеса
+                                    </div>
                                 </div>
-                                <div class="service-item-name">
-                                    Юридические услуги
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
+                        <li class="service-item">
+                            <a href="#">
+                                <div class="service-item-content">
+                                    <div class="service-item-image">
+                                        <img src="img/test-icon.png">
+                                    </div>
+                                    <div class="service-item-name">
+                                        IT-аутсорсинг
+                                    </div>
                                 </div>
-                                <div class="service-item-name">
-                                    Развитие бизнеса
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="service-item">
-                        <a href="#">
-                            <div class="service-item-content">
-                                <div class="service-item-image">
-                                    <img src="img/test-icon.png">
-                                </div>
-                                <div class="service-item-name">
-                                    IT-аутсорсинг
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -216,7 +216,7 @@
                                     популярность
                                 </div>
                             </div>
-                            <div class="business-info">
+                            <div class="info business-info">
                                 <div class="views">
                                     246
                                 </div>
@@ -260,7 +260,93 @@
                                     свою популярность
                                 </div>
                             </div>
-                            <div class="business-info">
+                            <div class="info business-info">
+                                <div class="views">
+                                    246
+                                </div>
+                                <div class="business-address">
+                                    г. Минск, ул. Захарова 123, оф. 21
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="business-item">
+                    <a href="#">
+                        <div class="business-image-wrapper">
+                            <ul class="carousel business-carousel">
+
+                                <li class="carousel-item">
+                                    <img src="images/business_1.jpg"/>
+                                </li>
+
+                                <li class="carousel-item">
+                                    <img src="images/business_1.jpg"/>
+                                </li>
+
+                            </ul>
+
+                            <div class="carousel-arrows">
+                                <div class="arrow arrow-left"></div>
+                                <div class="arrow arrow-right"></div>
+                            </div>
+                        </div>
+
+                        <div class="business-description">
+                            <div class="heading">
+                                РЕНТАБЕЛЬНЫЙ ПЕРЕДОВОЙ ДИСТРИБЬЮТОР КУХОННЫХ ПРИНАДЛЕЖНОСТЕЙ
+                            </div>
+                            <div class="description-wrapper">
+                                <div class="description">
+                                    Бизнес действует с 2012г. За время наработана большая клиентская база, бренд набрал
+                                    свою популярность
+                                </div>
+                            </div>
+                            <div class="info business-info">
+                                <div class="views">
+                                    246
+                                </div>
+                                <div class="business-address">
+                                    г. Минск, ул. Захарова 123, оф. 21
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="business-item">
+                    <a href="#">
+                        <div class="business-image-wrapper">
+                            <ul class="carousel business-carousel">
+
+                                <li class="carousel-item">
+                                    <img src="images/business_1.jpg"/>
+                                </li>
+
+                                <li class="carousel-item">
+                                    <img src="images/business_1.jpg"/>
+                                </li>
+
+                            </ul>
+
+                            <div class="carousel-arrows">
+                                <div class="arrow arrow-left"></div>
+                                <div class="arrow arrow-right"></div>
+                            </div>
+                        </div>
+
+                        <div class="business-description">
+                            <div class="heading">
+                                РЕНТАБЕЛЬНЫЙ ПЕРЕДОВОЙ ДИСТРИБЬЮТОР КУХОННЫХ ПРИНАДЛЕЖНОСТЕЙ
+                            </div>
+                            <div class="description-wrapper">
+                                <div class="description">
+                                    Бизнес действует с 2012г. За время наработана большая клиентская база, бренд набрал
+                                    свою популярность
+                                </div>
+                            </div>
+                            <div class="info business-info">
                                 <div class="views">
                                     246
                                 </div>
@@ -297,7 +383,7 @@
                 <div class="news-col">
                     <div class="news-item news-item-big">
                         <a href="#">
-                            <div class="news-item-image">
+                            <div class="news-item-image" style="background-image: url(images/business_1.jpg)">
                                 <img src="images/business_1.jpg"/>
                             </div>
                             <div class="news-item-description">
@@ -309,16 +395,78 @@
                                     правительства.
                                 </div>
                             </div>
+                            <div class="info">
+                                13 марта 2017 в 15:24
+                            </div>
                         </a>
                     </div>
                 </div>
 
                 <div class="news-col">
-                    <div class="news-item">
 
+                    <div class="news-item news-item-small">
+                        <a href="#">
+                            <div class="news-item-description">
+                                <div class="heading">
+                                    Средняя зарплата белорусов в феврале упала на 4,2 рубля
+                                </div>
+                            </div>
+                            <div class="info">
+                                13 марта 2017 в 15:24
+                            </div>
+                        </a>
                     </div>
+
+                    <div class="news-item news-item-small">
+                        <a href="#">
+                            <div class="news-item-description">
+                                <div class="heading">
+                                    Лукашенко — о трудоустройстве всех до 1 мая: люди должны сами искать работу, но
+                                    государство поможет
+                                </div>
+                            </div>
+                            <div class="info">
+                                13 марта 2017 в 15:24
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-item news-item-small">
+                        <a href="#">
+                            <div class="news-item-description">
+                                <div class="heading">
+                                    Крупнейший роmзовый бриллиант оценили в 60 миллионов долларов
+                                </div>
+                            </div>
+                            <div class="info">
+                                13 марта 2017 в 15:24
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-item news-item-small">
+                        <a href="#">
+                            <div class="news-item-description">
+                                <div class="heading">
+                                    Бесплатные полеты и скидки в магазинах. Какие бонусы банки предлагают по
+                                    кобрендинговым картам
+                                </div>
+                            </div>
+                            <div class="info">
+                                13 марта 2017 в 15:24
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
+
+            <div class="button button-big business-show-all">
+                <a href="#">
+                    Все новости
+                </a>
+            </div>
+
         </div>
 
     </div>
@@ -327,19 +475,51 @@
 </div>
 
 <!-- footer -->
-<div class="footer">
-    <div class="footer-about">
+<div class="footer clearfix">
+    <div class="footer-about clearfix">
+        <div class="container">
+            <div class="heading">
+                О компании
+            </div>
+            <div class="description">
+                <p>
+                    <b>Бизедвайзор</b> — молодая компания с опытными сотрудниками, расположенная в городе Минск.
+                </p>
+                <p>
+                    Наша цель — развивать все виды торговли между странами и помогать бизнесу в решении проблем. Мы
+                    принимаем уникальные решения, ценим и уважаем время наших клиентов.
+                </p>
+            </div>
+        </div>
 
-    </div>
-    <div class="footer-contacts">
+        <div class="footer-contacts-background"></div>
+        <div class="footer-contacts container clearfix">
 
-    </div>
-    <div class="footer-map">
+            <div class="footer-contacts-item contacts-phone">
+                <div>+375 (29) 911-41-58</div>
+                <div>+375 (25) 94-13-665</div>
+            </div>
 
+            <div class="footer-contacts-item contacts-address">
+                <div>г. Минск, ул. Захарова 123,</div>
+                <div>корп. 2, оф. 21</div>
+            </div>
+
+            <div class="footer-contacts-item contacts-email">
+                <div>bizadvisor@hello.com</div>
+            </div>
+
+        </div>
     </div>
-    <div class="footer-disclaimer">
-        Bizadvisor © 2017
-    </div>
+
+</div>
+
+<div class="footer-map">
+
+</div>
+<div class="footer-disclaimer">
+    Bizadvisor © 2017
+</div>
 </div>
 <!-- footer end -->
 

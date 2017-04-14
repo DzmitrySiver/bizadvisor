@@ -6,10 +6,16 @@ $(function() {
     console.log( "ready!" );
 
     $('.business-item').hover(function (e) {
-        // $(this).find('.description-wrapper').stop().slideDown(100);
         $(this).addClass('expanded');
     }, function () {
         $(this).removeClass('expanded');
-        // $(this).find('.description-wrapper').stop().slideUp(100);
-    })
+    });
+
+
+    // todo: replace with svg and css color ;
+   $('.service-item').hover(function (e) {
+        $(this).find('img').attr('src', 'img/test-icon-white.png');
+    }, function () {
+        $(this).find('img').attr('src', 'img/test-icon.png');
+    });
 });
