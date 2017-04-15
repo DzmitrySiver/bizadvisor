@@ -243,17 +243,26 @@ html, body {
     padding-bottom: 90px;
 }
 
-.section-heading {
-    height: 220px;
+.article .section:last-child {
+    padding-bottom: 40px;
+}
+
+.section-heading,
+.section-content {
+    position: relative;
+    z-index: 1;
+}
+
+.section-heading h1 {
+    padding: 90px 0;
     font-family: Futura, sans-serif;
     font-size: 30px;
     font-weight: 700;
     vertical-align: middle;
-    line-height: 240px;
     text-transform: uppercase;
 }
 
-.list-page .section-heading {
+.list-page .section-heading h1 {
     font-family: Futura, sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -262,14 +271,60 @@ html, body {
     text-indent: -4px;
 }
 
-.section-content {
-    /*margin-bottom: 100px;*/
+.article .section-heading h1 {
+    padding-bottom: 10px;
+}
+
+.article .section-heading {
+    margin-bottom: 60px;
 }
 
 .service-list-wrapper {
     position: relative;
     background-color: #262626;
     z-index: 1;
+}
+
+.item-content p {
+    font-family: Avenir, sans-serif;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.item-content b {
+    font-family: AvenirBold, sans-serif;
+}
+
+.item-content img {
+    display: block;
+    width: 100%;
+}
+
+.item-content img + .info {
+    margin-bottom: 30px;
+}
+
+.item-content h2,
+.item-content h3,
+.item-content h4,
+.item-content h5,
+.item-content h6 {
+    margin-bottom: 30px;
+    font-family: Futura, sans-serif;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.item-content ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.item-content ul li {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-family: Avenir, sans-serif;
+    line-height: 30px;
 }
 
 .service-list:after {
@@ -577,7 +632,9 @@ html, body {
     height: 280px;
 }
 
-
+.article-heading-image img {
+    width: 100%;
+}
 
 
 
@@ -623,6 +680,8 @@ html, body {
 
 .footer-small .footer-about {
     margin-top: 0;
+    padding: 0;
+    background: transparent;
 }
 
 .footer-small .footer-about .container,
