@@ -51,6 +51,10 @@ html, body {
     font-family: Avenir, sans-serif;
     color: #3f3f3f;
 }
+img {
+    display: block;
+    width: 100%;
+}
 
 .container {
     position: relative;
@@ -247,19 +251,61 @@ html, body {
     padding-bottom: 40px;
 }
 
+.article .views {
+    margin-top: 15px;
+}
+
+.business-heading {
+    display: block;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    padding: 15px;
+    border: 2px solid #ff6470;
+    background: #fff;
+    font-size: 0;
+}
+
+.business-heading-item {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: AvenirMedium, sans-serif;
+}
+
+.business-heading-item .price {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    color: #ff5669;
+}
+
+.business-heading-item:first-child {
+    border-right: 1px solid #ebebeb;
+}
+
 .section-heading,
 .section-content {
     position: relative;
     z-index: 1;
 }
 
-.section-heading h1 {
+.section-heading h1,
+.section-heading h2 {
     padding: 90px 0;
     font-family: Futura, sans-serif;
     font-size: 30px;
     font-weight: 700;
     vertical-align: middle;
     text-transform: uppercase;
+}
+
+.section-heading h2 {
+    padding-bottom: 50px;
 }
 
 .list-page .section-heading h1 {
@@ -275,7 +321,7 @@ html, body {
     padding-bottom: 10px;
 }
 
-.article .section-heading {
+.article .section-heading.primary {
     margin-bottom: 60px;
 }
 
@@ -299,8 +345,9 @@ html, body {
     width: 100%;
 }
 
-.item-content img + .info {
-    margin-bottom: 30px;
+.item-content img + .info,
+.item-content .business-image-wrapper + .info {
+    margin-bottom: 50px;
 }
 
 .item-content h2,
@@ -402,6 +449,10 @@ html, body {
     box-sizing: border-box;
 }
 
+.article .business-item {
+    margin-top: 0;
+}
+
 .business-item a {
     text-decoration: none;
 }
@@ -417,6 +468,25 @@ html, body {
     width: 100%;
     height: 280px;
     transition: all .2s ease-in-out;
+}
+
+.business-image-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.business-image-wrapper ul li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.article .business-image-wrapper-big {
+    height: 470px;
 }
 
 .business-item.expanded .business-image-wrapper {
@@ -442,6 +512,10 @@ html, body {
     transition: all .2s ease-in-out;
     cursor: pointer;
     fill: #ff5669;
+}
+
+.business-image-wrapper-big .flickity-prev-next-button {
+    opacity: 1;
 }
 
 .business-item.expanded .flickity-prev-next-button {
@@ -509,6 +583,7 @@ html, body {
 
 .business-info .views {
     float: right;
+    margin: 0;
 }
 
 
@@ -618,7 +693,7 @@ html, body {
 .list-page .news-item-small {
     box-sizing: border-box;
     display: inline-block;
-    width: 49%;
+    width: 50%;
     padding-right: 10px;
     vertical-align: top;
 }
