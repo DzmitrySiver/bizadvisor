@@ -25,6 +25,16 @@ $(function () {
         e.preventDefault();
     });
 
+    $('.open-modal-button').on('click', function (e) {
+       e.preventDefault();
+       $('.modal-controller').fadeIn();
+    });
+
+    $('.modal-close').on('click', function (e) {
+        e.preventDefault();
+        $('.modal-controller').fadeOut();
+    });
+
 
     // todo: replace with svg and css color ;
     $('.service-item').hover(function (e) {

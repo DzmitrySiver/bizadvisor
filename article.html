@@ -136,7 +136,7 @@
 
         </div>
 
-        <div class="button button-big business-show-all">
+        <div class="button button-big open-modal-button">
             <a href="#">
                 Заказать
             </a>
@@ -185,6 +185,85 @@
 </div>
 </div>
 <!-- footer end -->
+
+
+<!-- modal window -->
+
+<div class="modal-controller">
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-inner-wrapper">
+                <div class="modal-close">✕</div>
+                <div class="modal-heading">
+                    Заказать услугу
+                </div>
+                <div class="modal-content">
+                    <form name="order" action="#" method="post">
+
+                        <div class="form-item">
+                            <label for="name">
+                                Имя
+                            </label>
+                            <input id="name" type="text"/>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="surname">
+                                Фамилия
+                            </label>
+                            <input id="surname" type="text"/>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="tel">
+                                Телефон
+                            </label>
+                            <input id="tel" type="tel"/>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="mail">
+                                e-mail
+                            </label>
+                            <input id="mail" type="email"/>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="type">
+                                Услуга
+                            </label>
+
+                            <select id="type">
+                                <option>Юридические услуги</option>
+                                <option>Юридические услуги</option>
+                                <option>Юридические услуги</option>
+                                <option>Юридические услуги</option>
+                                <option>Юридические услуги</option>
+                            </select>
+
+                            <input type="button" class="addType" title="Добаввить улсугу">
+                        </div>
+
+                        <div class="form-item">
+                            <label for="additional">
+                                e-mail
+                            </label>
+                            <textarea id="additional"></textarea>
+                        </div>
+
+                        <div class="button button-big">
+                            <button type="submit" href="#">
+                                Заказать
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal window end -->
 
 </body>
 <script
